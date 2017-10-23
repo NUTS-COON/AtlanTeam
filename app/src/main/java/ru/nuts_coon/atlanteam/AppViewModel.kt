@@ -120,9 +120,4 @@ class AppViewModel : ViewModel() {
 
                 }
     }
-
-    fun toastIsViewed(){
-        showErrorMessage.value = false
-    }
-
 }

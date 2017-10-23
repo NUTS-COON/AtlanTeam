@@ -95,7 +95,6 @@ class CardsFragment : Fragment() {
                     showErrorMessage.observe(this@CardsFragment, Observer {
                         if (it!!) {
                             showErrorMessage()
-                            appViewModel.toastIsViewed()
                         }
                     })
                 }
